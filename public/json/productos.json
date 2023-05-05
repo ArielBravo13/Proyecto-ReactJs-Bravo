@@ -1,0 +1,83 @@
+[
+    {
+        "id":1,
+        "idCategoria": "Zapatillas",
+        "nombre": "CHUKKA LOW SIDESTRIPE BEIGE",
+        "marca" : "VANS" ,
+        "precio" : 45000,
+        "stock" : 4,
+        "img" : "/img/zapatillas-vans-chukka-low-sidestripe-beige.jpg"
+    },
+    {
+        "id":2,
+        "idCategoria": "Zapatillas",
+        "nombre": "ZAHBA BEIGE",
+        "marca" : "VANS" ,
+        "precio" : 55000,
+        "stock" : 7,
+        "img" : "/img/zapatillas-vans-zahba-beige.jpg"
+    },
+    {
+        "id":3,
+        "idCategoria": "Zapatillas",
+        "nombre": "SK8 LOW BLANCO",
+        "marca" : "VANS" ,
+        "precio" : 40000,
+        "stock" : 5,
+        "img" : "/img/zapatillas-vans-sk8-low-blanco.jpg"
+    },
+    {
+        "id":4,
+        "idCategoria": "Remeras",
+        "nombre": "YAPAK AMARILLO",
+        "marca" : "TIWEL" ,
+        "precio" : 15000,
+        "stock" : 25,
+        "img" : "/img/manga-corta-tiwel-yapak-amarillo.jpg"
+    },
+    {
+        "id":5,
+        "idCategoria": "Remeras",
+        "nombre": "BEACH TEE",
+        "marca" : "WEMOTO" ,
+        "precio" : 12000,
+        "stock" : 33,
+        "img" : "/img/manga-corta-wemoto-beach-tee-blanco.jpg"
+    },
+    {
+        "id":6,
+        "idCategoria": "Remeras",
+        "nombre": "SAILING CLUB TEE",
+        "marca" : "WEMOTO" ,
+        "precio" : 13500,
+        "stock" : 12,
+        "img" : "/img/manga-corta-wemoto-sailing-club-tee-negro.jpg"
+    },
+    {
+        "id":7,
+        "idCategoria": "Camperas",
+        "nombre": "UFOLLOW VINTAGE TRACK JACKET MULTICOLOR",
+        "marca" : "GRIMEY" ,
+        "precio" : 85000,
+        "stock" : 6,
+        "img" : "/img/chaqueta-de-abrigo-grimey-ufollow-vintage-track-jacket-multicolor.jpg"
+    },
+    {
+        "id":8,
+        "idCategoria": "Camperas",
+        "nombre": "KEEPER TWO-FER VARSITY JACKET AZUL",
+        "marca" : "PRIMITIVE" ,
+        "precio" : 90000,
+        "stock" : 2,
+        "img" : "/img/chaqueta-de-abrigo-primitive-keeper-two-fer-varsity-jacket-azul.jpg"
+    },
+    {
+        "id":9,
+        "idCategoria": "Camperas",
+        "nombre": "SCALY HOOD",
+        "marca" : "QUICKSILVER" ,
+        "precio" : 82000,
+        "stock" : 9,
+        "img" : "/img/chaqueta-de-abrigo-quiksilver-scaly-hood-azul.jpg"
+    }
+]
