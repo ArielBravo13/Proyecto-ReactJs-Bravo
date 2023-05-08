@@ -129,7 +129,7 @@ const ItemListContainer = () => {
             })
         }
 
-    }, [])
+    }, [category])
 
 
     return (
