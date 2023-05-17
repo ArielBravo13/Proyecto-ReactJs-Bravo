@@ -1,13 +1,13 @@
-import React from 'react';
 import { ItemCount } from '../ItemCount/ItemCount';
-import { useParams } from 'react-router-dom';
+import { useCarritoContext } from '../../context/CartContext';
 
 
 export const ItemDetail = ({item}) => {
-
+    
+    const { addItem } = useCarritoContext()
+    
     const onAdd = (contador) => {
-        console.log(contador)
-        console.log(item)
+        addItem(item, contador)
     }
 
     return (
@@ -19,7 +19,7 @@ export const ItemDetail = ({item}) => {
                 <div className='card-body'>
                     <h5 className='card-title'>{item.nombre}</h5>
                     <p className="card-text">Modelo: {item.modelo}</p>
-                    <p className="card-text">Marca: {item.stock}</p>
+                    <p className="card-text">Marca: {item.marca}</p>
                     <p className="card-text">Precio: {item.precio}</p>
                     <p className="card-text">Stock: {item.stock}</p>
                     <ItemCount valInicial={1} min={1} max={item.stock} onAdd={onAdd}/>                    

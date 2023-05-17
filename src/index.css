@@ -3,3 +3,7 @@ body {
     color: crimson;
 }
 
+
+.cardCart {
+    max-width: 450px;
+}

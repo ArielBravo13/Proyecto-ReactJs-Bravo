@@ -6,7 +6,7 @@
         "marca" : "VANS" ,
         "precio" : 45000,
         "stock" : 4,
-        "img" : "/img/zapatillas-vans-chukka-low-sidestripe-beige.jpg"
+        "img" : "https://firebasestorage.googleapis.com/v0/b/proyecto-react-bravo2023.appspot.com/o/zapatillas-vans-chukka-low-sidestripe-beige.jpg?alt=media&token=961e3a7a-43c7-4464-9499-78b362af7069"
     },
     {
         "id":2,
@@ -15,7 +15,7 @@
         "marca" : "VANS" ,
         "precio" : 55000,
         "stock" : 7,
-        "img" : "/img/zapatillas-vans-zahba-beige.jpg"
+        "img" : "https://firebasestorage.googleapis.com/v0/b/proyecto-react-bravo2023.appspot.com/o/zapatillas-vans-zahba-beige.jpg?alt=media&token=cba7bec2-6907-4c4e-858c-fb888e7e736f"
     },
     {
         "id":3,
@@ -24,7 +24,7 @@
         "marca" : "VANS" ,
         "precio" : 40000,
         "stock" : 5,
-        "img" : "/img/zapatillas-vans-sk8-low-blanco.jpg"
+        "img" : "https://firebasestorage.googleapis.com/v0/b/proyecto-react-bravo2023.appspot.com/o/zapatillas-vans-sk8-low-blanco.jpg?alt=media&token=ee1c18c5-f568-4236-8fd1-348ba65c7174"
     },
     {
         "id":4,
@@ -33,7 +33,7 @@
         "marca" : "TIWEL" ,
         "precio" : 15000,
         "stock" : 25,
-        "img" : "/img/manga-corta-tiwel-yapak-amarillo.jpg"
+        "img" : "https://firebasestorage.googleapis.com/v0/b/proyecto-react-bravo2023.appspot.com/o/manga-corta-tiwel-yapak-amarillo.jpg?alt=media&token=14f34724-5665-4e77-b7f9-3cdefcfa81b8"
     },
     {
         "id":5,
@@ -42,7 +42,7 @@
         "marca" : "WEMOTO" ,
         "precio" : 12000,
         "stock" : 33,
-        "img" : "/img/manga-corta-wemoto-beach-tee-blanco.jpg"
+        "img" : "https://firebasestorage.googleapis.com/v0/b/proyecto-react-bravo2023.appspot.com/o/manga-corta-wemoto-beach-tee-blanco.jpg?alt=media&token=88a2de68-290b-40d7-9dc6-07fef2b373ca"
     },
     {
         "id":6,
@@ -51,7 +51,7 @@
         "marca" : "WEMOTO" ,
         "precio" : 13500,
         "stock" : 12,
-        "img" : "/img/manga-corta-wemoto-sailing-club-tee-negro.jpg"
+        "img" : "https://firebasestorage.googleapis.com/v0/b/proyecto-react-bravo2023.appspot.com/o/manga-corta-wemoto-sailing-club-tee-negro.jpg?alt=media&token=bf447bd3-5c84-4ac7-a4d1-68f3f7fa075e"
     },
     {
         "id":7,
@@ -60,7 +60,7 @@
         "marca" : "GRIMEY" ,
         "precio" : 85000,
         "stock" : 6,
-        "img" : "/img/chaqueta-de-abrigo-grimey-ufollow-vintage-track-jacket-multicolor.jpg"
+        "img" : "https://firebasestorage.googleapis.com/v0/b/proyecto-react-bravo2023.appspot.com/o/chaqueta-de-abrigo-grimey-ufollow-vintage-track-jacket-multicolor.jpg?alt=media&token=83eb1b2e-8447-48e6-8435-c0cda5adee88"
     },
     {
         "id":8,
@@ -69,7 +69,7 @@
         "marca" : "PRIMITIVE" ,
         "precio" : 90000,
         "stock" : 2,
-        "img" : "/img/chaqueta-de-abrigo-primitive-keeper-two-fer-varsity-jacket-azul.jpg"
+        "img" : "https://firebasestorage.googleapis.com/v0/b/proyecto-react-bravo2023.appspot.com/o/chaqueta-de-abrigo-primitive-keeper-two-fer-varsity-jacket-azul.jpg?alt=media&token=a2e6e4c7-156a-47b3-9e83-23365076bcdd"
     },
     {
         "id":9,
@@ -78,6 +78,6 @@
         "marca" : "QUICKSILVER" ,
         "precio" : 82000,
         "stock" : 9,
-        "img" : "/img/chaqueta-de-abrigo-quiksilver-scaly-hood-azul.jpg"
+        "img" : "https://firebasestorage.googleapis.com/v0/b/proyecto-react-bravo2023.appspot.com/o/chaqueta-de-abrigo-quiksilver-scaly-hood-azul.jpg?alt=media&token=cae153d6-d58e-4662-9158-c44742689651"
     }
 ]

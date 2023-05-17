@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
+import { memo } from "react";
 
-export const Categorias = () => {
+export const Categorias = memo(() => {
     return (
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
@@ -13,26 +14,26 @@ export const Categorias = () => {
             <li className="nav-item">
                 <Link className="nav-link" to={'/category/Zapatillas'}>
                     <button className="btn btn-secondary">
-                        <i class="fa-solid fa-shoe-prints"> Zapatillas</i>
+                        <i className="fa-solid fa-shoe-prints"> Zapatillas</i>
                     </button>
                 </Link>
             </li>
             <li className="nav-item">
                 <Link className="nav-link" to={'/category/Remeras'}>
                     <button className="btn btn-secondary">
-                        <i class="fa-solid fa-shirt"> Remeras</i>
+                        <i className="fa-solid fa-shirt"> Remeras</i>
                     </button>
                 </Link>
             </li>
             <li className="nav-item">
                 <Link className="nav-link" to={'/category/Camperas'}>
                     <button className="btn btn-secondary">
-                        <i class="fa-solid fa-shirt"> Camperas</i>
+                        <i className="fa-solid fa-shirt"> Camperas</i>
                     </button>
                 </Link>
             </li>
         </ul>
     )
-};
+});
 
 export default Categorias

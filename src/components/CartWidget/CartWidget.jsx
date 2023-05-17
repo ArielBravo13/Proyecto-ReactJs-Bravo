@@ -1,9 +1,19 @@
-export const CartWidget = ({number}) => {
-    return (
+import { useCarritoContext } from "../../context/CartContext.js";
+import { Link } from "react-router-dom";
+
+
+export const CartWidget = () => {
+
+    const { getItemQuantity } = useCarritoContext()
+
+    return (        
         <>
-            <button className="btn btn-primary cart" type="button">
-                <i className="fa-solid fa-cart-shopping"></i>
-                <span id="cart_menu_num" data-action="cart-can" className="badge rounded-circle" >{number}</span>
+            <button className="btn btn-primary cartWidget" type="button">
+                <Link to={'/cart'} className="nav-link">
+                <i className="fa-solid fa-cart-shopping"></i>            
+                {getItemQuantity() > 0 && <span className="cantCarrito">{getItemQuantity()}</span>}   
+                </Link>
+                 
             </button> 
         </>
     )
