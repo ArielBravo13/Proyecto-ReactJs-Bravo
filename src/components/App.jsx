@@ -5,8 +5,10 @@ import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Cart from './Cart/Cart';
 import { Checkout } from './Checkout/Checkout';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
-import { createProducts } from '../firebase/firebase';
+//import { createProducts } from '../firebase/firebase';
 
 
 
@@ -18,6 +20,7 @@ export const App = () => {
     <>
       <BrowserRouter>
         <NavBar />
+        <ToastContainer />
           <Routes>
             <Route path='/' element={<ItemListContainer />} />
             <Route path='/Cart' element={<Cart />} />            

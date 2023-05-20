@@ -10,12 +10,10 @@ const ItemDetailContainer = () => {
     const {id} = useParams()
 
     useEffect(() => {
-        getProduct()
-        .then(productos => {
-            const prod = productos.find(prod => prod.id === id)
-            setItem(prod)
-        })
-    }, [id])
+        getProduct(id).then((prod) => {
+          setItem(prod);
+        });
+      }, [id])
  
     return (
         <div className='card mb-3 container itemDetail'>

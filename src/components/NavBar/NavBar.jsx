@@ -5,9 +5,9 @@ import { CartWidget } from '../CartWidget/CartWidget.jsx';
 const NavBar = () => {
     return (
         <nav className="navbar">
-            <div className="container-fluid container-nav">
+            <div className="container-fluid container-nav justify-content-around">
                 <a className="navbar-brand" href="./index.html">
-                    <img className="navbar-logo-img" src="./img/logo.png" alt="Logo" />
+                <i className="fa-solid fa-cart-shopping"></i>
                 </a>
 
                 <h2>Ariel Store</h2>
